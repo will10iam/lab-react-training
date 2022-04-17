@@ -1,9 +1,11 @@
 .firstP {
     border: 1px solid black;
     font-size: 20px;
+    text-indent: 5px;
 }
 
 .secondP {
-   border: 1px solid black;
+    border: 1px solid black;
     font-size: 20px; 
+    text-indent: 5px;
 }
