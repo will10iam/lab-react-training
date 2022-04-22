@@ -13,27 +13,31 @@ export function CreditCard(props) {
 
 
     return ( 
-        <div style={divStyle} className="card">
 
-        <div className="container">
-            <img className="bandCard" src={bandeira} alt="Bandeira"/>
-        </div>
         
-        <div>
-            <p className="numCard"><strong>{props.number}</strong></p>
-        </div>
 
-        <div className="infosNum">
-            <span className="expCard">Expires 0{props.expirationMonth}/{props.expirationYear}</span>
-            <span className="bankCard">{props.bank}</span>
-        </div>
+            <div style={divStyle} className="card">
 
-        <div>
-            <p className="ownCard">{props.owner}</p>
-        </div>
+                <div className="container">
+                    <img className="bandCard" src={bandeira} alt="Bandeira"/>
+                </div>
+            
+                <div>
+                    <p className="numCard"><strong>{props.number}</strong></p>
+                </div>
+
+                <div className="infosNum">
+                    <span className="expCard">Expires 0{props.expirationMonth}/{props.expirationYear}</span>
+                    <span className="bankCard">{props.bank}</span>
+                </div>
+
+                <div>
+                    <p className="ownCard">{props.owner}</p>
+                </div>
+            
+            
+            </div>
         
-        
-        </div>
 
      );
 }
